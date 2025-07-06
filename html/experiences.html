@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mes Expériences - Imane</title>
+  <link rel="stylesheet" href="../css/but.css">
+  <style>
+    .experience-card {
+      background-color: #ffffff;
+      border-left: 6px solid #2D3B87;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 900px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .experience-card h2 {
+      color: #2D3B87;
+      margin-top: 0;
+    }
+
+    .experience-card ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .experience-card ul li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    .github-link {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #7E99C4;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .github-link:hover {
+      background-color: #2D3B87;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="but.html">Le BUT</a></li>
+        <li><a href="competences.html">Mes Compétences</a></li>
+        <li><a href="experiences.html" style="text-decoration: underline;">Mes Expériences</a></li>
+        <li><a href="projet.html">Mon projet</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section titre -->
+  <section class="but-section">
+    <div class="but-header">
+      <h1>MES EXPÉRIENCES</h1>
+    </div>
+
+    <div class="but-description">
+      Voici un aperçu de mes expériences professionnelles et projets personnels.
+    </div>
+
+   <!-- Alternance AIGS -->
+<div class="experience-card">
+  <h2>Alternance chez AIGS (2024-2025) – Développeuse Full Stack</h2>
+  <p>Je conçois et développe seule l’application web <strong>Ikraa</strong>, une plateforme éducative destinée aux élèves et aux enseignants.</p>
+  <ul>
+    <li><strong>Java & Servlets :</strong> développement du backend avec gestion des rôles, utilisateurs, quiz et leçons.</li>
+    <li><strong>HTML / CSS / JavaScript :</strong> création de l’interface utilisateur responsive et intuitive.</li>
+    <li><strong>PostgreSQL :</strong> conception de la base de données et requêtes personnalisées.</li>
+    <li><strong>Authentification & sécurité :</strong> gestion des sessions et droits d'accès selon les rôles.</li>
+  </ul>
+</div>
+
+
+
+    <!-- Projet Vélib -->
+    <div class="experience-card">
+      <h2>Projet SAÉ – Application Vélib’ (2024)</h2>
+      <p>Application web et mobile pour localiser les stations Vélib’ en temps réel.</p>
+      <ul>
+        <li><strong>Flutter :</strong> développement de l’interface mobile.</li>
+        <li><strong>API Vélib’ :</strong> récupération des données temps réel.</li>
+        <li><strong>Firebase Auth :</strong> gestion des utilisateurs, favoris, historique.</li>
+      </ul>
+    </div>
+
+    <!-- Projet personnel : TaxiMoto -->
+    <div class="experience-card">
+      <h2>Projet personnel – TaxiMoto (2025)</h2>
+      <p>Application mobile inspirée d'Uber, dédiée aux déplacements rapides en moto-taxi.</p>
+      <ul>
+        <li><strong>Flutter & Dart :</strong> interface intuitive avec navigation personnalisée.</li>
+        <li><strong>Google Maps API :</strong> affichage d’itinéraires en temps réel.</li>
+        <li><strong>Firebase :</strong> base utilisateurs, authentification et formulaire de contact avec envoi direct par mail.</li>
+      </ul>
+    </div>
+
+    <!-- Lien GitHub -->
+    <div style="text-align: center;">
+      <a href="https://github.com/imane-tonLien" target="_blank" class="github-link">
+        🔗 Voir mes projets sur GitHub
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
